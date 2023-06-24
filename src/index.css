@@ -25,6 +25,12 @@ input {
     align-items: center;
 }
 
+button {
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+}
+
 /*LOGIN*/
 
 .main__container {
@@ -426,152 +432,51 @@ input {
 }
 
 /*cccccccc*/
-.rectangle-22 {
-    width: 100%;
-    height: 105.88%;
-    background-color: var(--white);
-    border-radius: 30px;
-    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.05);
-    position: relative;
-}
 
 .control__wrapper {
     display: flex;
+    position: relative;
+    top: 25px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1),
+        0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    width: 303px;
+    height: 850px;
+    left: 70px;
+    border-radius: 30px;
+    flex-direction: column;
+    bottom: 20px;
 }
 
-.exit {
+.control__item {
+    padding-top: 40px;
+}
+
+.control__img {
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+
+.control__title {
+    font-size: 20px;
+    font-family: "Manrope";
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.control__btn {
+    padding-left: 40px;
     display: flex;
-    align-items: center;
-    position: absolute;
-    left: 40px;
-    bottom: -9px;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.70);
 }
 
-.rectangle-112 {
-    width: 25px;
-    height: 25px;
-    margin-right: 20px;
+.control__btn:hover {
+    color: black;
 }
 
-.vyhod {
-    width: 57.94%;
-    height: 96%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.settings {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 40px;
-    bottom: 51px;
-}
-
-.rectangle-30 {
-    width: 16.56%;
-    height: 96.15%;
-    margin-right: 20px;
-}
-
-.nastrojki {
-    width: 70.2%;
-    height: 92.31%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.podborki {
-    width: 32.34%;
-    height: 2.82%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    left: 85px;
-    top: 159px;
-}
-
-.stirka {
-    width: 23.76%;
-    height: 2.82%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    left: 86px;
-    top: 218px;
-}
-
-.obrazy {
-    width: 24.75%;
-    height: 2.82%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    left: 85px;
-    top: 100px;
-}
-
-.workspace {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 40px;
-    top: 40px;
-}
-
-.garderob {
-    width: 67.63%;
-    height: 96%;
-    font-family: "Manrope";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 1);
-}
-
-.rectangle-151 {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    left: 41px;
-    top: 218px;
-}
-
-.rectangle-151-two {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    left: 41px;
-    top: 100px;
-}
-
-.rectangle-150 {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    left: 41px;
-    top: 40px;
-}
-
-.rectangle-147 {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    left: 41px;
-    top: 158px;
+.set_padding {
+    padding-top: 455px;
 }
